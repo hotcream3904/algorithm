@@ -5,8 +5,6 @@ function solution(progresses, speeds) {
         deploymentDay.push( Math.ceil((100-progresses[i])/speeds[i]) )
     }
     
-    console.log(deploymentDay)
-    
     let maxNum = deploymentDay[0] 
     let day = 0;   
     for(let i = 0; i<deploymentDay.length; i++) {
